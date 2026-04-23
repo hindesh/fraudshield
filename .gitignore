@@ -1,0 +1,25 @@
+# paste this into .gitignore
+
+# Data files (too large for GitHub)
+*.csv
+*.zip
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# ML model binary
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
